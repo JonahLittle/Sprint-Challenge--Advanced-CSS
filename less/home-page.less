@@ -4,6 +4,12 @@
 
   .intro {
 
+    img{
+      @media(max-width:500px){
+        width:100%;
+      }
+    }
+
     h2 {
       padding: 15px;
     }
@@ -18,6 +24,18 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
+    .mobile-invisible{
+      @media(max-width:500px){
+        display:none;
+      }
+    }
+    .mobile-visible{
+      @media(max-width:500px){
+        width:100%
+      }
+    }
+
 
     img {
       width: 28%;
@@ -58,6 +76,18 @@
       }
 
       .btn {
+        .Button-Style(@ebony-clay, @porcelain);
+        font-size:2rem;
+        width:11rem;
+        height:3.5rem;
+        border-radius:.5rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .btn:hover{
+        background-color:@porcelain ;
+        color:@ebony-clay;
       }
     }
 
