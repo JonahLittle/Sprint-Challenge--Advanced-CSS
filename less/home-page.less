@@ -96,6 +96,11 @@
         display:flex;
         align-items:center;
         justify-content:center;
+
+        @media @phone{
+          width:100%;
+          height:rem;
+        }
       }
       .btn:hover{
         background-color:@porcelain ;
@@ -113,7 +118,7 @@
       }
       
       img {
-        width: 100%;
+        width: @width;
         height: auto;
         border-radius: 10px;
 
