@@ -271,7 +271,6 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
-    height: rem;
   }
 }
 .home .walk .walk-text .btn:hover {
@@ -292,4 +291,42 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.team {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #F6F6F6;
+  padding: 10rem;
+}
+.about .people {
+  border-radius: 2rem;
+  color: white;
+  background-color: #81848E;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  margin: 3rem;
+}
+.about img {
+  height: 13rem;
+  width: 13rem;
+  margin-right: 2rem;
+}
+.about a {
+  text-decoration: none;
+  color: #23293B;
+}
+.foot {
+  height:10rem;
+  display:flex;
+  text-align:center;
+  align-items:center;
 }

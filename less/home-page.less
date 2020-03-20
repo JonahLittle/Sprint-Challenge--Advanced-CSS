@@ -117,7 +117,7 @@
       }
       
       img {
-        width: @width;
+        width: 100%;
         height: auto;
         border-radius: 10px;
 
@@ -125,3 +125,38 @@
     }
   }
 }// home
+
+// team
+.team {
+  height:10rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.about {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  background-color:@wild-sand;
+  padding:10rem;
+
+  .people {
+    border-radius:2rem;
+    color:white;
+    background-color: #81848E;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:2rem;
+    margin:3rem;
+  }
+  img {
+      height:13rem;
+      width:13rem;
+      margin-right:2rem;
+  }
+  a{
+    text-decoration:none;
+    color:@ebony-clay;
+    }
+}
